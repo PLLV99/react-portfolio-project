@@ -11,7 +11,7 @@ function Hero() {
                 <div className={styles.hero_con}>
                     <div className={styles.hero_info}>
                         <p className={styles.text_1}>Hi, it's me</p>
-                        <h3 className={styles.text_2}>John Doe</h3>
+                        <h3 className={styles.text_2}>P P</h3>
                         <p className={styles.text_3}>
                             <span style={{ marginRight: "10px" }}>
                                 I'm a
@@ -19,7 +19,7 @@ function Hero() {
                             <TypeAnimation
                                 sequence={[
                                     // Same substring at the start will only be typed out once, initially
-                                    'Front-end Developer',
+                                    'Junior Developer',
                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
                                     'Web Developer',
                                     1000,
@@ -28,7 +28,7 @@ function Hero() {
                                 repeat={Infinity}
                             />
                         </p>
-                        <p className={styles.text_4}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga fugiat commodi <br /> quas cupiditate minus dolore nulla eos accusantium labore explicabo.</p>
+                        <p className={styles.text_4}>I'm a recent graduate with a passion for web development.<br />I have hands-on experience building dynamic and responsive websites using React, HTML, and CSS.<br />I'm eager to apply my skills in real-world projects and continuously grow by learning new technologies.</p>
                         <ul className={styles.hero_social}>
                             <li><a href="https://www.github.com/"><FaGithub /></a></li>
                             <li><a href="https://www.linkedin.com/"><FaLinkedinIn /></a></li>
