@@ -1,4 +1,4 @@
-import React from 'react'
+
 import stlyes from './Skill.module.css'
 import { FaSquareJs, FaReact, FaSass, FaGitAlt, FaNode } from 'react-icons/fa6'
 

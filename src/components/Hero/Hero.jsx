@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Hero.module.css'
 import { FaGithub, FaLinkedinIn, FaFacebookF } from 'react-icons/fa6'
 import { TypeAnimation } from 'react-type-animation'
@@ -10,11 +9,11 @@ function Hero() {
             <div className={styles.container}>
                 <div className={styles.hero_con}>
                     <div className={styles.hero_info}>
-                        <p className={styles.text_1}>Hi, it's me</p>
+                        <p className={styles.text_1}>Hi, it&apos;s me</p>
                         <h3 className={styles.text_2}>P P</h3>
                         <p className={styles.text_3}>
                             <span style={{ marginRight: "10px" }}>
-                                I'm a
+                                I&apos;m a
                             </span>
                             <TypeAnimation
                                 sequence={[
@@ -28,7 +27,7 @@ function Hero() {
                                 repeat={Infinity}
                             />
                         </p>
-                        <p className={styles.text_4}>I'm a recent graduate with a passion for web development.<br />I have hands-on experience building dynamic and responsive websites using React, HTML, and CSS.<br />I'm eager to apply my skills in real-world projects and continuously grow by learning new technologies.</p>
+                        <p className={styles.text_4}>I&apos;m a recent graduate with a passion for web development.<br />I have hands-on experience building dynamic and responsive websites using React, HTML, and CSS.<br />I&apos;m eager to apply my skills in real-world projects and continuously grow by learning new technologies.</p>
                         <ul className={styles.hero_social}>
                             <li><a href="https://github.com/PLLV99"><FaGithub /></a></li>
                             <li><a href="https://www.linkedin.com/"><FaLinkedinIn /></a></li>

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Portfolio.module.css'
 import Tilt from 'react-parallax-tilt'
 

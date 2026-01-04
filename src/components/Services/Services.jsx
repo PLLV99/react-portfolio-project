@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Services.module.css'
 import { FaCode, FaPaintbrush, FaDesktop } from 'react-icons/fa6'
 function Services() {
@@ -10,7 +9,7 @@ function Services() {
                     <FaCode />
                     <h4>Web Development</h4>
                     <p>
-                        I specialize in building fast, responsive, and secure websites using modern web technologies like HTML, CSS, JavaScript, and React. Whether it's a small business site or a large-scale web app, I can deliver high-quality code to match your needs.
+                        I specialize in building fast, responsive, and secure websites using modern web technologies like HTML, CSS, JavaScript, and React. Whether it&apos;s a small business site or a large-scale web app, I can deliver high-quality code to match your needs.
                     </p>
                 </div>
                 <div className={styles.services_items}>

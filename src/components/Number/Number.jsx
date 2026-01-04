@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Number.module.css'
 import CountUp from 'react-countup'
 import VisibilitySensor from 'react-visibility-sensor'
